@@ -1,13 +1,31 @@
 // Assignment code here
+var password = "";
 var characterOption = function() {
+  password = ""; 
   var characterLower = window.confirm("Do you want your password to have lower case characters?");
+    if (characterLower) {
+      password = password + "abcdefghijklmnopqrstuvwxyz";
+    }
+      
   var characterUpper = window.confirm("Do you want your password to have upper case characters?");
+    if (characterUpper) {
+      password = password + "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    }
+
   var characterNumbers = window.confirm("Do you want to numbers in your password?");
+    if (characterNumbers) {
+      password = password + "0123456789";
+    }
   var characterSpecial = window.confirm("Do you want your password to have special characters?");
+    if (characterSpecial){
+      password = password + "!#$%&()*+,-./:;<=>?@[]\^_{}|~";
+    }
+
     if (characterLower === false && characterUpper === false && characterNumbers === false && characterSpecial === false){
       window.alert("Please select at least one option.");
       characterOption();
     }
+    return password;
 }
 
 var generatePassword = function() {
