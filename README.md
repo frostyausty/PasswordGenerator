@@ -10,16 +10,22 @@ After the user inputs a character length they are asked if they would like the r
 
 ## Screenshots 
 
-./screenshots/screenshot1.png
-./screenshots/screenshot2.png
-./screenshots/screenshot3.png
-./screenshots/screenshot4.png
-./screenshots/screenshot5.png
-./screenshots/screenshot6.png
+!(https://github.com/frostyausty/PasswordGenerator/blob/master/screenshots/screenshot1.PNG?raw=true)
+
+!(https://github.com/frostyausty/PasswordGenerator/blob/master/screenshots/screenshot2.PNG?raw=true)
+
+!(https://github.com/frostyausty/PasswordGenerator/blob/master/screenshots/screenshot3.PNG?raw=true)
+
+!(https://github.com/frostyausty/PasswordGenerator/blob/master/screenshots/screenshot4.PNG?raw=true)
+
+!(https://github.com/frostyausty/PasswordGenerator/blob/master/screenshots/screenshot5.PNG?raw=true)
+
+!(https://github.com/frostyausty/PasswordGenerator/blob/master/screenshots/screenshot6.PNG?raw=true)
 
 
 ## Link to deployed application
 
+https://frostyausty.github.io/PasswordGenerator/
 
 ### Collaboration
 
