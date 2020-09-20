@@ -16,6 +16,7 @@ var characterOption = function() {
     if (characterNumbers) {
       password = password + "0123456789";
     }
+    
   var characterSpecial = window.confirm("Do you want your password to have special characters?");
     if (characterSpecial){
       password = password + "!#$%&()*+,-./:;<=>?@[]\^_{}|~";
