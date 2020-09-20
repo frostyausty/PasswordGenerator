@@ -34,7 +34,7 @@ var characterOption = function() {
       parameter = parameter + "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     }
 
-  var characterNumbers = window.confirm("Do you want to numbers in your password?");
+  var characterNumbers = window.confirm("Do you want numbers in your password?");
     if (characterNumbers) {
       parameter = parameter + "0123456789";
     }
